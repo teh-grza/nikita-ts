@@ -20,6 +20,7 @@ web/wp-content/mu-plugins/*
 !web/wp-content/mu-plugins/.gitkeep
 !web/wp-content/plugins/
 web/wp-content/plugins/*
+!web/wp-content/plugins/advanced-custom-fields-pro/
 !web/wp-content/plugins/custom/
 !web/wp-content/plugins/.gitkeep
 !web/wp-content/themes
@@ -109,3 +110,8 @@ Thumbs.db
 # SASS #
 ##########
 .sass-cache
+
+# IDE #
+##########
+.idea
+
