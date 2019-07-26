@@ -25,7 +25,7 @@ web/wp-content/plugins/*
 !web/wp-content/plugins/.gitkeep
 !web/wp-content/themes
 web/wp-content/themes/*
-!web/wp-content/themes/custom/
+!web/wp-content/themes/twentyseventeen/
 !web/wp-content/themes/.gitkeep
 !web/wp-content/config/
 web/wp

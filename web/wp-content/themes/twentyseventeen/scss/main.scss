@@ -1,0 +1,7 @@
+body {background:orange;}
+
+$great: #33cc99;
+
+body p {
+  color: $great!important;
+}
