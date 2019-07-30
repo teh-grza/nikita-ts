@@ -1,6 +1,8 @@
-body {
-  background: orange; }
+#content {
+  font-size: 19px;
+  background-color: #f1c8c7;
+  line-height: normal; }
 
-body p {
-  color: #33cc99 !important; }
+.wrap {
+  padding-right: 4em; }
 

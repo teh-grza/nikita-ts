@@ -1,7 +1,2 @@
-body {background:orange;}
+@import "test.scss";
 
-$great: #33cc99;
-
-body p {
-  color: $great!important;
-}

@@ -1,0 +1,14 @@
+//variables
+@mixin base {
+  font-size: 19px;
+  background-color: #f1c8c7;
+  line-height: normal;
+}
+#content {
+  @include base;
+}
+.wrap {
+  padding-right: 4em;
+}
+
+

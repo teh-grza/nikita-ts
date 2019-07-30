@@ -1,0 +1,32 @@
+$bac-color: #dcf3ed;
+
+a {
+  text-decoration: none;
+
+}
+
+a:focus .cta:before {
+  background-color: $bac-color;
+}
+
+}
+.cta-title {
+  background-color: $bac-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 81px;
+    margin: 0 auto
+    margin-left: -60px;
+    padding: 20px 20px 20px 35px;
+    width: 82%;
+}
+
+.cta-img {
+  height: 0;
+  border-radius: 0;
+  overflow: hidden;
+  position: relative;
+  padding-top: 51%;
+  width: 100%
+}
