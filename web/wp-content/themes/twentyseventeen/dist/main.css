@@ -6,3 +6,11 @@
 .wrap {
   padding-right: 4em; }
 
+.fun {
+  font-size: 10px; }
+
+.animals {
+  float: left;
+  padding: 8px;
+  object-fit: cover; }
+

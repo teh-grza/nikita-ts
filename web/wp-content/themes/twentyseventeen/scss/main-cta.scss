@@ -13,7 +13,6 @@ a:focus .cta:before {
 .cta-title {
   background-color: $bac-color;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     min-height: 81px;
     margin: 0 auto
@@ -22,11 +21,3 @@ a:focus .cta:before {
     width: 82%;
 }
 
-.cta-img {
-  height: 0;
-  border-radius: 0;
-  overflow: hidden;
-  position: relative;
-  padding-top: 51%;
-  width: 100%
-}
