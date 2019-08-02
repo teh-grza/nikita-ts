@@ -16,18 +16,9 @@ get_header(); ?>
 
 
     <h1><?php the_field('home_page_header_text');?></h1>
-
-<?php get_field('ctas');?>
-    <div class="animals">
-    <img src="https://cdn.pixabay.com/photo/2017/05/28/18/21/girgentana-goat-2351715_1280.jpg"<?php get_field('cta_image');?> alt="screenshot" height="300" width="450" >
-    <img src="https://cdn.pixabay.com/photo/2016/11/14/03/32/elephant-1822492_1280.jpg"<?php get_field('cta_image');?> alt="screenshot" height="300" width="450" >
-    <img src="https://cdn.pixabay.com/photo/2015/03/26/09/41/hamster-690108_1280.jpg"<?php get_field('cta_image');?> alt="screenshot" height="300" width="450">
-    </div>
-
-
-
-
-
+    <?php
+    require get_template_directory() . '/template-parts/3-up_cta.php';
+    ?>
 
 
 <div id="primary" class="content-area">

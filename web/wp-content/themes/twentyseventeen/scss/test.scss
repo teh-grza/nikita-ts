@@ -1,7 +1,7 @@
 //variables
 @mixin base {
   font-size: 19px;
-  background-color: #f1c8c7;
+  background-color: #fff;
   line-height: normal;
 }
 #content {
@@ -11,13 +11,18 @@
   padding-right: 4em;
 }
 
-.fun {
-  font-size: 10px;
+.body-text {
+ margin: 10px;
+  padding-right: 40px;
 }
 
-.animals {
-  float: left;
-  padding: 8px;
-  object-fit: cover;
+.ctas-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ctas-wrapper .cta {
+  width: 30%;
+  text-align: center;
 }
 
