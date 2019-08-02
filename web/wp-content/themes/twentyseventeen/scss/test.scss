@@ -1,4 +1,7 @@
 //variables
+$maroon: #7a0031;
+$padding: 40px;
+
 @mixin base {
   font-size: 19px;
   background-color: #fff;
@@ -11,18 +14,28 @@
   padding-right: 4em;
 }
 
-.body-text {
- margin: 10px;
-  padding-right: 40px;
+.body-intro {
+ margin: 0px;
+  font-size: 13px;
+  font-family: fantasy;
+  padding: 0px;
 }
 
 .ctas-wrapper {
   display: flex;
+  padding: $padding;
   justify-content: space-between;
 }
 
 .ctas-wrapper .cta {
   width: 30%;
+  background-color: aliceblue;
   text-align: center;
 }
 
+.image-wrapper {
+  border-radius: 20px;
+}
+.title-wrapper {
+  color: #maroon;
+}

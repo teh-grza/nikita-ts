@@ -1,3 +1,4 @@
+<a href="https://google.com" class="card-link">
 <div class="ctas-wrapper">
     <?php
     if ( have_rows( 'ctas' ) ) :
@@ -21,12 +22,17 @@
                     <?php endif; ?>
                 </div>
 
-                <div class="body-text">
+                <div class="body-intro">
                     <?php print_r(get_sub_field('intro_text')); ?>
                 </div>
+
+
+
             </div>
         <?php
         endwhile;
     endif;
     ?>
+
 </div>
+</a>
