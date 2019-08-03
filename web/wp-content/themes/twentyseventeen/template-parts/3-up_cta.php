@@ -1,4 +1,3 @@
-<a href="https://google.com" class="card-link">
 <div class="ctas-wrapper">
     <?php
     if ( have_rows( 'ctas' ) ) :
@@ -26,6 +25,11 @@
                     <?php print_r(get_sub_field('intro_text')); ?>
                 </div>
 
+                <?php
+                $link = get_sub_field('cta_link');
+
+                ?>
+                <a class="bookie" href="<?php echo $link['url']; ?>" target="<?php echo $link['target']; ?>"><?php echo $link['title']; ?></a>
 
 
             </div>
@@ -35,4 +39,3 @@
     ?>
 
 </div>
-</a>
